@@ -1,6 +1,6 @@
 <?php
 
-function mytheme_logger( $log_file_name, $subject ) {
+function wwzrds_logger( $log_file_name, $subject ) {
     $now = current_datetime();
     if ( is_array( $subject ) || is_object( $subject ) ) {
         $subject = json_encode( $subject, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE );

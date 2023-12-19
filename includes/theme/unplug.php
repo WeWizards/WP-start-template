@@ -1,9 +1,9 @@
 <?php
 
 //Disable emojis in WordPress
-add_action( 'init', 'mytheme_disable_emojis' );
+add_action( 'init', 'wwzrds_disable_emojis' );
 
-function mytheme_disable_emojis() {
+function wwzrds_disable_emojis() {
     remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
     remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
     remove_action( 'wp_print_styles', 'print_emoji_styles' );

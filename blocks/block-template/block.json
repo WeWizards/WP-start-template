@@ -1,10 +1,10 @@
 {
-    "name" : "mytheme/custom-block",
+    "name" : "wwzrds/custom-block",
     "title" : "Custom Block",
     "icon": "admin-site",
     "description": "My awesome custom block.",
     "apiVersion": 3,
-    "textdomain": "mytheme",
+    "textdomain": "wwzrds",
     "supports": {
         "align" : false,
         "mode"  : false,

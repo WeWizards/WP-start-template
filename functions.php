@@ -18,8 +18,8 @@ if ( defined('HIDE_ADMIN_BAR') && HIDE_ADMIN_BAR ) {
 	add_filter('show_admin_bar', '__return_false');
 }
 
-add_action('acf/init','bi_init_global_acf_constants');
-function bi_init_global_acf_constants() {
+add_action('acf/init','wwzrds_init_global_acf_constants');
+function wwzrds_init_global_acf_constants() {
     define( 'GLOBAL_EXAMPLE_FIELD_VALUE', get_field( 'global_example_field', 'options' ) );
 }
 

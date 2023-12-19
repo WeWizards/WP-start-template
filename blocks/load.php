@@ -1,7 +1,7 @@
 <?php
 
-add_action( 'init', 'bi_block_registration' );
-function bi_block_registration() {
+add_action( 'init', 'wwzrds_block_registration' );
+function wwzrds_block_registration() {
     foreach(glob(THEME_DIR . '/blocks/*', GLOB_ONLYDIR) as $dir){
         register_block_type( $dir );
 
