@@ -1,6 +1,6 @@
 <?php
 
-add_action('wp_enqueue_scripts', 'mytheme_load_resources', 12);
+add_action('wp_enqueue_scripts', 'mytheme_load_resources');
 function mytheme_load_resources() {
     $theme_styles_filemane =  '/_dist/css/style.min.css';
     $theme_styles_url = THEME_URL . $theme_styles_filemane;
@@ -19,7 +19,7 @@ function mytheme_load_resources() {
     wp_enqueue_script(
         handle: 'mytheme',
         src: $theme_scripts_url,
-	    deps: ['jquery','select2'],
+	    deps: ['jquery'],
         ver: filemtime($theme_scripts_path),
         args: [
 			'in_footer' => true,
