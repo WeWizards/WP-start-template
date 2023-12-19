@@ -1,0 +1,92 @@
+{
+    "version": 1,
+    "settings": {
+        "typography": {
+            "customFontSize": false,
+            "lineHeight": true,
+            "fontSizes": [
+                {
+                    "slug": "h1",
+                    "size": "6rem",
+                    "name": "H1"
+                },
+                {
+                    "slug": "h2",
+                    "size": "2.88rem",
+                    "name": "H2"
+                },
+                {
+                    "slug": "h3",
+                    "size": "1.5rem",
+                    "name": "H3"
+                },
+                {
+                    "slug": "text_46",
+                    "size": "2.88rem",
+                    "name": "Text 46"
+                },
+                {
+                    "slug": "text_24",
+                    "size": "1.5rem",
+                    "name": "Text 24"
+                },
+                {
+                    "slug": "text_16",
+                    "size": "1rem",
+                    "name": "Text 16"
+                }
+            ]
+        },
+        "spacing": {
+            "spacingSizes": [
+                {
+                    "size": "clamp(1.5rem, 5vw, 2rem)",
+                    "slug": "30",
+                    "name": "1"
+                },
+                {
+                    "size": "clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)",
+                    "slug": "40",
+                    "name": "2"
+                },
+                {
+                    "size": "clamp(2.5rem, 8vw, 6.5rem)",
+                    "slug": "50",
+                    "name": "3"
+                }
+            ],
+            "blockGap": true,
+            "customPadding": true,
+            "customMargin": true,
+            "units": [
+                "px",
+                "rem",
+                "%"
+            ]
+        },
+        "color": {
+            "palette": [
+                {
+                    "slug": "black",
+                    "color": "#000000",
+                    "name": "Black"
+                },
+                {
+                    "slug": "pink",
+                    "color": "#F2CFCE",
+                    "name": "Pink"
+                },
+                {
+                    "slug": "white",
+                    "color": "#ffffff",
+                    "name": "White"
+                },
+                {
+                    "slug": "grey",
+                    "color": "#A5A5A5",
+                    "name": "Grey"
+                }
+            ]
+        }
+    }
+}

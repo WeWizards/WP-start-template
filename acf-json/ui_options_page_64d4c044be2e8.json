@@ -1,0 +1,22 @@
+{
+    "key": "ui_options_page_64d4c044be2e8",
+    "title": "Глобальные настройки",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Глобальные настройки",
+    "menu_slug": "global-settings",
+    "parent_slug": "none",
+    "advanced_configuration": 0,
+    "icon_url": "",
+    "menu_title": "",
+    "position": "",
+    "redirect": 0,
+    "description": "",
+    "update_button": "Обновить",
+    "updated_message": "Настройки были обновлены",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "modified": 1691664503
+}

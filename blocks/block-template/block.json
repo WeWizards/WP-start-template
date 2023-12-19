@@ -1,0 +1,18 @@
+{
+    "name" : "mytheme/custom-block",
+    "title" : "Custom Block",
+    "icon": "admin-site",
+    "description": "My awesome custom block.",
+    "apiVersion": 3,
+    "textdomain": "mytheme",
+    "supports": {
+        "align" : false,
+        "mode"  : false,
+        "jsx"   : true,
+        "anchor": true
+    },
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "./template.php"
+    }
+}

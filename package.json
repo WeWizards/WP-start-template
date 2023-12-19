@@ -1,0 +1,35 @@
+{
+  "name": "article_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/js/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config assets/js/config/webpack.prod.js",
+    "start": "NODE_ENV=development webpack --config assets/js/config/webpack.dev.js --watch",
+    "watch": "webpack --config assets/js/config/webpack.dev.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.5.1",
+    "cssnano": "^5.0.12",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.4.4",
+    "postcss": "^8.4.4",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.0.1",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0",
+    "webpack-merge": "^5.8.0",
+    "webpack-shell-plugin": "^0.5.0"
+  }
+}
