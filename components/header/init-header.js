@@ -1,12 +1,12 @@
 import { Header } from './Header';
 
-let mythemeHeader;
+let wwzrdsHeader;
 
 document.addEventListener('DOMContentLoaded', () => {
   const headerDomElement = document.querySelector('.header');
   if (headerDomElement) {
-    mythemeHeader = new Header(headerDomElement);
+    wwzrdsHeader = new Header(headerDomElement);
   }
 });
 
-export { mythemeHeader };
+export { wwzrdsHeader };

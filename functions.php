@@ -18,14 +18,9 @@ if ( defined('HIDE_ADMIN_BAR') && HIDE_ADMIN_BAR ) {
 	add_filter('show_admin_bar', '__return_false');
 }
 
-add_action('acf/init','bi_init_global_acf_constants');
-function bi_init_global_acf_constants() {
-    define( 'GLOBAL_PHONE',              get_field( 'global_phone', 'options' ) );
-    define( 'GLOBAL_ADDRESS',            get_field( 'global_address', 'options' ) );
-    define( 'GLOBAL_EMAIL',              get_field( 'global_email', 'options' ) );
-    define( 'GLOBAL_SOCIALS',            get_field( 'global_socials', 'options' ) );
-	define( 'GOOGLE_CAPTCHA_KEY',        get_field( 'google_captcha_key', 'options') );
-	define( 'GOOGLE_CAPTCHA_SECRET',     get_field( 'google_captcha_secret', 'options') );
+add_action('acf/init','wwzrds_init_global_acf_constants');
+function wwzrds_init_global_acf_constants() {
+    define( 'GLOBAL_EXAMPLE_FIELD_VALUE', get_field( 'global_example_field', 'options' ) );
 }
 
 require_once THEME_DIR . '/includes/load.php';
