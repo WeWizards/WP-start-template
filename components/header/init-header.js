@@ -1,12 +1,12 @@
 import { Header } from './Header';
 
-let biHeader;
+let mythemeHeader;
 
 document.addEventListener('DOMContentLoaded', () => {
   const headerDomElement = document.querySelector('.header');
   if (headerDomElement) {
-    biHeader = new Header(headerDomElement);
+    mythemeHeader = new Header(headerDomElement);
   }
 });
 
-export { biHeader };
+export { mythemeHeader };

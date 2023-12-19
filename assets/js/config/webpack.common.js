@@ -103,11 +103,6 @@ module.exports = {
         return `${base}.min.css`;
       },
     }),
-    // env === 'development' ? new EslintWebpackPlugin(
-    //   {
-    //     extensions: ['js', 'mjs', 'jsx', 'ts', 'tsx'],
-    //   },
-    // ) : null,
     new CopyPlugin({
       patterns: [
         {
